@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/applicant-signs",
+      "handler": "applicant-sign.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/applicant-signs/count",
+      "handler": "applicant-sign.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/applicant-signs/:id",
+      "handler": "applicant-sign.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/applicant-signs",
+      "handler": "applicant-sign.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/applicant-signs/:id",
+      "handler": "applicant-sign.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/applicant-signs/:id",
+      "handler": "applicant-sign.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

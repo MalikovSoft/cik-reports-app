@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "request_statuses",
+  "info": {
+    "name": "RequestStatus"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "UUID": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

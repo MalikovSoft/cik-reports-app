@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "purpose_sign",
+  "info": {
+    "name": "PurposeSign"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "UUID": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

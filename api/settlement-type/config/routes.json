@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/settlement-types",
+      "handler": "settlement-type.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/settlement-types/count",
+      "handler": "settlement-type.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/settlement-types/:id",
+      "handler": "settlement-type.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/settlement-types",
+      "handler": "settlement-type.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/settlement-types/:id",
+      "handler": "settlement-type.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/settlement-types/:id",
+      "handler": "settlement-type.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "settlements",
+  "info": {
+    "name": "Settlement"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "UUID": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

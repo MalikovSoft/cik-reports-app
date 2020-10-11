@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/event-orientations",
+      "handler": "event-orientation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/event-orientations/count",
+      "handler": "event-orientation.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/event-orientations/:id",
+      "handler": "event-orientation.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/event-orientations",
+      "handler": "event-orientation.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/event-orientations/:id",
+      "handler": "event-orientation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/event-orientations/:id",
+      "handler": "event-orientation.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

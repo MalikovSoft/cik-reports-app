@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/place-application-descriptions",
+      "handler": "place-application-description.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/place-application-descriptions/count",
+      "handler": "place-application-description.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/place-application-descriptions/:id",
+      "handler": "place-application-description.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/place-application-descriptions",
+      "handler": "place-application-description.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/place-application-descriptions/:id",
+      "handler": "place-application-description.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/place-application-descriptions/:id",
+      "handler": "place-application-description.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

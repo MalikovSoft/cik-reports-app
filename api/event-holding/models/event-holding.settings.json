@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_holdings",
+  "info": {
+    "name": "EventHolding"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "UUID": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

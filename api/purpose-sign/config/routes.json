@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/purpose-signs",
+      "handler": "purpose-sign.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/purpose-signs/count",
+      "handler": "purpose-sign.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/purpose-signs/:id",
+      "handler": "purpose-sign.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/purpose-signs",
+      "handler": "purpose-sign.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/purpose-signs/:id",
+      "handler": "purpose-sign.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/purpose-signs/:id",
+      "handler": "purpose-sign.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_types",
+  "info": {
+    "name": "EventType"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "UUID": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
